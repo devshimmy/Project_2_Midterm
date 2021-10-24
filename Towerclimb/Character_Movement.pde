@@ -67,7 +67,7 @@ class Character_Movement
        {
          highscore = score;
        }
-       if (highscore >= 1)
+       if (highscore >= 5)
        {
          text("WOW!" , width/2, height/2);
        }
