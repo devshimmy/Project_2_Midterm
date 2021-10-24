@@ -25,16 +25,12 @@ void draw()
   text("SCORE:  " + score, 625,50);
   noFill();
   rect(10,10,198,80); // Guage bar
-  fill(0, 0, 0);
+  fill(255, 0, 0);
   rect(10,10,z,80); // fill up guage bar
   fill(255,0,0);
   rect(741,100,8,150); // backboard
   rect(630,240,120,10); // rim
   playerPosition.draw();
-  //stroke(255,0,0);
-  //line(197.5,10,197.5,90);
-  //stroke(0,0,0);
-  //rect(650,250,width,height);
   
   
 }

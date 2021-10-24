@@ -37,15 +37,7 @@ class Character_Movement
      playerAcceleration.y = 0.121;
      println(z);
      z = 0;
-    } /*if (playerPosition.y < 0)
-       {
-          playerPosition.y = 0;
-       }
     }
-       if (playerSpeed.x == 0) 
-       {
-          playerAcceleration.x = 0;
-       }*/
        if (playerPosition.x >= 725)
        {
          playerSpeed.x = playerSpeed.x * -0.5; 
